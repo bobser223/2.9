@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="test_crash">Test crash</string>
+    <string name="global_crash">Global crash</string>
+</resources>
