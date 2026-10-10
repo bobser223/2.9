@@ -74,6 +74,7 @@ class MainActivity : ComponentActivity() {
                     }
                 }
 
+            }
         }
 
         binding.btnGlobalCrash.setOnClickListener {
@@ -85,6 +86,5 @@ class MainActivity : ComponentActivity() {
             safeScope.launch { launch(ceh){delay(500) //падає бо помилки передаються каскадно нагору
                 throw IllegalArgumentException("Ой!")} }
         }
-    }
     }
 }
